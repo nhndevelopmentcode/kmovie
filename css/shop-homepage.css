@@ -1,0 +1,91 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+/* Start of  box of picture and image*/
+.caption {
+    height: 60px;
+    overflow: hidden;
+}
+/* End of  box of picture and image*/
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail-img {
+    width: 100%;
+	padding: 0;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+.playicon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url("../img/play_overlay.png") no-repeat;
+    background-position: 36% 30% !important;
+ 	background-size: 20%!important;
+ 	cursor: pointer !important;
+		}
+
+.playicon-overlay {
+		background: url("../img/play_overlay.png") center center no-repeat;	 
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0%;
+		top: -15%;  
+    	/*width: 300px;
+	   	height: 300px;
+	    position: absolute;
+	    left: 50%;
+	    top: 53%; 
+	    margin-left: -150px;
+	    margin-top: -150px;
+	    background-size: 15%;*/
+	}
+
+.block{
+		background-color: black;
+		
+}
+
+footer {
+    margin: 50px 0;
+}
